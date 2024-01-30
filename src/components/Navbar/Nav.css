@@ -1,0 +1,86 @@
+.container {
+  position: absolute;
+  height: 100%;
+}
+
+
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 100%;
+  padding-top: 10rem;
+  border: none;
+  background-image: linear-gradient(#ca508d,#d499a8,#ca508d);
+}
+
+.guide {
+
+  transition: 2s;
+
+  &:hover {
+    &::before {
+      content: "GUIDE";
+      color: #b2dfdc;
+      position: absolute;
+      left: 1.4rem;
+    }
+
+    .guide-name {
+      opacity: 0;
+    }
+
+  }
+}
+
+.home-name {
+  opacity: 1;
+}
+
+.home {
+
+  &:hover {
+    &::after {
+      content: "HOME";
+      color: #b2dfdc;
+      position: absolute;
+      left: 1.4rem;
+    }
+
+    .home-name {
+      opacity: 0;
+    }
+
+  }
+}
+
+.nav-btn {
+  color: #b2dfdc;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 1rem;
+}
+
+.signout {
+  position: relative;
+  cursor: pointer;
+  margin-top: 30rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 2px solid rgb(214, 25, 25);
+  background: transparent;
+  color: rgb(214, 25, 25);
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: rgb(214, 25, 25);
+    color: white;
+
+  }
+
+
+}
