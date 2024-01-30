@@ -68,7 +68,7 @@
 .signout {
   position: relative;
   cursor: pointer;
-  margin-top: 30rem;
+  top:30%;
   padding: 0.5rem;
   border-radius: 10px;
   border: 2px solid rgb(214, 25, 25);
